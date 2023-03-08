@@ -1,0 +1,30 @@
+<div class="card" style="width: 14rem;">
+                <img src="/medias/Avatar_The_Way_of_Water_poster.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Avatar</h5>
+                <div style="flex-grow:1">Aventura</div>
+                <div style="flex-grow:1">2022</div>
+                <div style="flex-grow:1">16A</div>
+                <a href="#" class="btn btn-primary">Detalhes</a>
+                </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+                <img src="/medias/Avatar_The_Way_of_Water_poster.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Avatar</h5>
+                <div style="flex-grow:1">Aventura</div>
+                <div style="flex-grow:1">2022</div>
+                <div style="flex-grow:1">16A</div>
+                <a href="#" class="btn btn-primary">Detalhes</a>
+                </div>
+            </div>
+            <div class="card" style="width: 14rem;">
+                <img src="/medias/Avatar_The_Way_of_Water_poster.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Avatar</h5>
+                <div style="flex-grow:1">Aventura</div>
+                <div style="flex-grow:1">2022</div>
+                <div style="flex-grow:1">16A</div>
+                <a href="#" class="btn btn-primary">Detalhes</a>
+                </div>
+            </div>
