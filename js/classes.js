@@ -33,24 +33,24 @@ class Filme
         let card = document.createElement("div");
         card.setAttribute("class", "card");
         let imgCartaz= document.createElement("img");
-        imgCartaz.setAttribute("lass", "card-img-topz");
-        imgCartaz.setAttribute("sr",this.cartaz);
+        imgCartaz.setAttribute("class", "card-img-topz");
+        imgCartaz.setAttribute("src",this.cartaz);
         let cardBody = document.createElement("div");
         cardBody.setAttribute("class", "card-body");
         let hCardTitle=document.createElement("h5");
         hCardTitle.setAttribute("class", "card-title");
         let divDetalhes= document.createElement("div");
         divDetalhes.setAttribute("style", "display:flex; justify-content:space-aroud;");
-        let divGenero= document. createFlement("div");
+        let divGenero= document. createElement("div");
         divGenero.setAttribute ("style", "flex-grow:1;");
         let divAnoProducao= document.createElement("div");
         divAnoProducao.setAttribute("style", "flex-grow:1;");
-        let divClassificacao= document.createFlement("div");
-        divclassificacao.setAttribute("style", "flex-grow:1;");
+        let divClassificacao= document.createElement("div");
+        divClassificacao.setAttribute("style", "flex-grow:1;");
         hCardTitle.appendChild (document.createTextNode(this.titulo))
         divGenero.appendChild(document.createTextNode(this.genero))
-        divAnoProduca.appendChild(document.createTextNode(this.ano));
-        divClassificacao.appendchild(document.createTextNode(this.classificacao))
+        divAnoProducao.appendChild(document.createTextNode(this.ano));
+        divClassificacao.appendChild(document.createTextNode(this.classificacao))
         divDetalhes.appendChild(divGenero);
         divDetalhes.appendChild (divAnoProducao);
         divDetalhes.appendChild(divClassificacao);
